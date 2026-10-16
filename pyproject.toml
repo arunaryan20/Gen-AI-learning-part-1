@@ -1,0 +1,19 @@
+[project]
+name = "part-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "arunaryan20", email = "arunkumar2031999@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.3",
+]
+
+[project.scripts]
+part-1 = "part_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
